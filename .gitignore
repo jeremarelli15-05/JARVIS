@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+!.env.example
+secrets.yaml
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Home Assistant runtime / local state
+.storage/
+home-assistant_v2.db
+home-assistant_v2.db-shm
+home-assistant_v2.db-wal
+deps/
+tts/
+www/community/
+custom_components/
+backup/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
