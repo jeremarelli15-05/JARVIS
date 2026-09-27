@@ -1,0 +1,10 @@
+# Safe example only.
+# Keep real credentials in Home Assistant secrets / environment-specific configuration.
+
+default_config:
+
+# Example:
+# assist_pipeline:
+#   - name: JARVIS
+#     language: es
+#     conversation_engine: google_generative_ai
